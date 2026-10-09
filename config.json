@@ -1,0 +1,20 @@
+{
+  "mode": "authorized_staging_qa",
+  "base_url": "https://staging.example.com/login",
+  "allowed_hosts": ["staging.example.com"],
+  "timeout_ms": 12000,
+  "feedback_timeout_ms": 4000,
+  "next_timeout_ms": 8000,
+  "selectors": {
+    "username": "input[name='student_code']",
+    "password": "input[type='password']",
+    "login_submit": "button[type='submit']",
+    "post_login_ready": "main",
+    "question": "[data-testid='question-text']",
+    "option": "[data-testid='answer-option']",
+    "submit": "[data-testid='submit-answer']",
+    "correct_indicator": "[data-testid='answer-correct']",
+    "incorrect_indicator": "[data-testid='answer-incorrect']",
+    "next": "[data-testid='next-question']"
+  }
+}
