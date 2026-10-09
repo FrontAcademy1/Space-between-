@@ -4,4 +4,14 @@
     {"chapter": "Chapter 1", "question_contains": "REPLACE WITH A DISTINCTIVE PART OF TEST QUESTION 1", "answer_text": "REPLACE WITH EXACT TEST OPTION 1"},
     {"chapter": "Chapter 1", "question_contains": "REPLACE WITH A DISTINCTIVE PART OF TEST QUESTION 2", "answer_text": "REPLACE WITH EXACT TEST OPTION 2"}
   ]
+
+  {
+  "chapter_1": [
+    {
+      "question_id": "q1",
+      "answer": "console.log(\"Hello\");",
+      "expected_output": "Hello"
+    }
+  ]
+}
 }
