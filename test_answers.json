@@ -1,0 +1,7 @@
+{
+  "description": "ضع هنا إجابات معروفة لحساب الاختبار في بيئة staging فقط. يجب أن يطابق answer_text نص خيار ظاهر تمامًا.",
+  "questions": [
+    {"chapter": "Chapter 1", "question_contains": "REPLACE WITH A DISTINCTIVE PART OF TEST QUESTION 1", "answer_text": "REPLACE WITH EXACT TEST OPTION 1"},
+    {"chapter": "Chapter 1", "question_contains": "REPLACE WITH A DISTINCTIVE PART OF TEST QUESTION 2", "answer_text": "REPLACE WITH EXACT TEST OPTION 2"}
+  ]
+}
