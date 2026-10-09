@@ -1,7 +1,7 @@
 {
   "mode": "authorized_staging_qa",
   "base_url": "https://staging.example.com/login",
-  "allowed_hosts": ["staging.example.com"],
+  "allowed_hosts": ["https://me-portal.qureo.education/login"],
   "timeout_ms": 12000,
   "feedback_timeout_ms": 4000,
   "next_timeout_ms": 8000,
